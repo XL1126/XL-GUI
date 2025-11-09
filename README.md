@@ -14,7 +14,7 @@
 
 PySimpleGUI 作为一款"让 GUI 开发像写脚本一样简单"的优秀库，深受开发者喜爱。但官方后续版本转向商业许可模式，导致开源用户无法享受后续支持。
 
-为了保障开源社区的使用权益，我们公开了最后一个完全开源的 **4.60.5 稳定版**：
+为了保障开源社区的使用权益，我们公开了最后一个完全开源的 **4.60.5**：
 - 保留全部原有核心功能，无任何功能阉割
 - 遵循 LGPL v3 开源协议，永久免费
 - 让每个开发者都能自由使用这款优秀的 GUI 工具
@@ -26,8 +26,8 @@ PySimpleGUI 作为一款"让 GUI 开发像写脚本一样简单"的优秀库，�
 | 特性 | 详情 |
 |------|------|
 | 🆓 完全免费 | 无许可证、无付费门槛、无功能限制，商用/非商用均可 |
-| 🛡️ 稳定可靠 | 基于经过百万开发者验证的 4.60.5 版本，稳定性有保障 |
-| 🔄 无缝迁移 | API 1:1 兼容 PySimpleGUI 4.x，现有代码**零修改**即可切换 |
+| 🛡️ 稳定可靠 | 稳定性有保障（出问题了找PySimpleGUI） |
+| 🔄 无缝迁移 | API 1:1 兼容 PySimpleGUI 4.x，**安装后无需修改任何代码**，仍使用 `import PySimpleGUI` 导入（`import XLGUI` 无效） |
 | 🧩 完美兼容 | 支持 Python 3.6+，避开 5.x 版本的破坏性更新和兼容性问题 |
 | 📚 文档复用 | 可直接使用 PySimpleGUI 4.x 官方文档、教程和示例代码 |
 
@@ -35,18 +35,17 @@ PySimpleGUI 作为一款"让 GUI 开发像写脚本一样简单"的优秀库，�
 
 ## 🚀 快速开始
 
-### 安装（30秒搞定）
+### 安装
 
 ```bash
-# 基础安装（推荐）
 pip install xl-gui
-
-# 升级到最新版本
-pip install --upgrade xl-gui
-
+```
+```bash
 # 离线安装（下载 .whl 文件后）
 pip install xl_gui-xxx-py3-none-any.whl
 ```
+
+> 💡 安装完成后，原有 PySimpleGUI 代码无需修改，直接运行即可（仍使用 `import PySimpleGUI as sg`）
 
 ---
 
@@ -60,10 +59,8 @@ pip install xl_gui-xxx-py3-none-any.whl
 详细条款见 [LICENSE](LICENSE) 文件。
 
 ---
-
-> 🌟 让 GUI 开发更简单，让开源精神延续 —— XL-GUI 与你同行！
-
-
+## 🌟 让 GUI 开发更简单，让开源精神延续 —— XL-GUI 与你同行！
+------------------------------------------------------------------------------------------------------
 ## English Section
 
 ### XL-GUI: Open-Source Continuation of PySimpleGUI
@@ -77,7 +74,7 @@ pip install xl_gui-xxx-py3-none-any.whl
 ### Key Features
 - 🆓 **100% Free**: No licenses, no paywalls, no restrictions (commercial/non-commercial use allowed)
 - 🛡️ **Stable & Reliable**: Based on the proven PySimpleGUI 4.60.5 version, trusted by millions of developers
-- 🔄 **Seamless Migration**: 1:1 API compatible with PySimpleGUI 4.x, zero code changes required
+- 🔄 **Seamless Migration**: 1:1 API compatible with PySimpleGUI 4.x, **no code changes required after installation** — still use `import PySimpleGUI` (`import XLGUI` is invalid)
 - 🧩 **Perfect Compatibility**: Supports Python 3.6+, avoids breaking changes in 5.x versions
 - 📚 **Reusable Docs**: Works with PySimpleGUI 4.x official documentation, tutorials and examples
 
@@ -90,6 +87,8 @@ pip install xl-gui
 pip install --upgrade xl-gui
 ```
 
+> 💡 After installation, no changes are needed for existing PySimpleGUI code — run directly with `import PySimpleGUI as sg`
+
 ### License
 This project is released under the **LGPL v3 Open Source License**, allowing:
 - Free use, modification, and distribution
@@ -97,3 +96,6 @@ This project is released under the **LGPL v3 Open Source License**, allowing:
 - Secondary development (retain original copyright notice)
 
 See [LICENSE](LICENSE) for detailed terms.
+
+---
+
