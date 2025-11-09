@@ -43,7 +43,7 @@ pip install xl-gui
 ```
 ```bash
 # 离线安装（下载 .whl 文件后）
-pip install xl_gui-xxx-py3-none-any.whl
+pip install xl_gui-4.60.5-py3-none-any.whl
 ```
 
 > 💡 安装完成后，原有 PySimpleGUI 代码无需修改，直接运行即可（仍使用 `import PySimpleGUI as sg`）
@@ -102,3 +102,4 @@ See [LICENSE](LICENSE) for detailed terms.
 
 
 其他事项：这个是我弄着玩的，实在是太闲了，要是有问题不要找我(￣o￣) . z Z（真实可以使用，不是虚假的）
+
